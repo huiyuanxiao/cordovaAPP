@@ -1,0 +1,144 @@
+.wrap{
+    padding: 20px;
+    position: relative;
+}
+.top{
+    width: 100%;
+}
+.top a {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.top img{
+    width: 25px;
+    height: 25px;
+}
+.bottom,.bottom ul{
+    width: 100%;
+    background-color: #4B946A;
+    line-height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.bottom ul li{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.bottom ul li a{
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+/*中心内容进行分享和评论*/
+.content,.list,.username{
+    width: 100%;
+    margin-top: 10px;
+}
+.username a{
+    display: inline-block;
+    float: left;
+}
+.username a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.username span{
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 8px;
+}
+.clear{
+    clear: both;
+}
+.userContent{
+    font-size: 13px;
+}
+.userContent p{
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+/*评论*/
+.edit{
+    width: 100%;
+    text-align: right;
+    float: right;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.edit .comment{
+    display: inline-block;
+    margin-right: 15px;
+}
+.edit .share{
+    display: inline-block;
+}
+.edit a{
+    color: #000;
+    font-size: 13px;
+}
+#Message{
+    width: 100%;
+    text-align: left;
+    display: none;
+}
+#Message .editContent{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    border:1px solid #e2e2e2;
+}
+#Message .but{
+    float: right;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #4B946A;
+    padding: 10px;
+    text-align: center;
+    line-height: 10px;
+}
+/*评论*/
+.main{
+    width:100%;
+    background:#fff;
+}
+.msginfo{
+    width:100%;
+    background:#fff;
+    margin-bottom:20px;
+    border-radius:5px;
+}
+.msginfo dl{
+    width:100%;
+    height:40px;
+    border-bottom:1px dotted #ddd;
+}
+.msginfo dl dt{
+    width:30px;
+    height:30px;
+    float:left;
+}
+.msginfo dl dt img{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+
+}
+.msginfo dl dd{
+    width:auto;
+    float:left;
+    line-height:30px;
+    margin-left:10px;
+    font-size: 13px;
+}
+.msginfo .con{
+    line-height:20px;
+    font-size:12px;
+}
