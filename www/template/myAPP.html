@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/firstPage.css">
+    <link rel="stylesheet" type="text/css" href="../css/myApp.css">
+    <title>首页</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="content">
+        <div class="photo">
+            <h2>我的相册</h2>
+            <ul>
+                <li><img src="../img/1c0017fed3ad948738cb456289e960c9.jpg"></li>
+                <li><img src="../img/2a4fe1cf5303d0a8fb1a1d9ed34b09a5.jpg"></li>
+                <li><img src="../img/4a717eb258b3fd1c867a80310b5b6653.jpg"></li>
+                <li><img src="../img/e7eb4e18dd38dadc37c79bf51adb7787.jpg"></li>
+                <li><img src="../img/f672a84f9b9d137e1cae65c12a0f.jpg"></li>
+                <li><img style="display:none;" id="getImageLocal" src="" /></li>
+                <li class="addPhoto"><img src="../img/f196.png"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="photoShow">
+        <ul>
+            <li>
+                <a href="#" class="photoList" onclick="loadImageLocal()">
+                    <img src="../img/photo_album_512px_1175440_easyicon.net.png">
+                    <p>相册</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="takePhoto" onclick="loadImage()">
+                    <img src="../img/sonyericsson_camera_photo_111px_1135473_easyicon.net.png" >
+                    <p>相机</p>
+                </a>
+            </li>
+        </ul>
+        <img style="display:none;width:60px;height:60px;" id="getImage" src="" />
+    </div>
+    <div class="bottom">
+        <ul>
+            <li><a href="firstPage.html">发现</a></li>
+            <li><a href="myAPP.html">应用</a></li>
+            <li><a href="mine.html">我的</a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="./../cordova.js"></script>
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/camera.js"></script>
+<script type="text/javascript" src="../../plugins/cordova-plugin-camera/www/Camera.js"></script>
+<script type="text/javascript" src="../../plugins/cordova-plugin-camera/www/CameraConstants.js"></script>
+<script type="text/javascript" src="../../plugins/cordova-plugin-camera/www/CameraPopoverHandle.js"></script>
+<script type="text/javascript" src="../../plugins/cordova-plugin-camera/www/CameraPopoverOptions.js"></script>
+<script type="text/javascript" src="../../plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js"></script>
+<script type="text/javascript" src="../../plugins/cordova-plugin-console/www/console-via-logger.js"></script>
+<script type="text/javascript" src="../js/myAPP.js"></script>
+</body>
+</html>
