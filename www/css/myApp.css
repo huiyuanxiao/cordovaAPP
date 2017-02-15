@@ -1,0 +1,48 @@
+.photo{
+    width: 100%;
+}
+.photo h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.photo ul li{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.photo ul li img{
+    width: 100px;
+    height: 100px;
+}
+.addPhoto{
+    border: 1px solid #e2e2e2;
+}
+.photoShow{
+    display: none;
+    position: fixed;
+    left: 20px;
+    bottom: 50px;
+}
+.photoShow ul li{
+    float: left;
+    margin-right: 20px;
+}
+.photoShow ul li a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    padding: 10px 15px 25px 15px;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    text-align: center;
+}
+.photoShow ul li img{
+    width: 45px;
+    height: 45px;
+}
+.photoShow ul li p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #000;
+}
